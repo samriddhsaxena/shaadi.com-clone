@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#bgImg{
+    width: 100%;
+    height: 98vh;
+    position: relative;
+    filter: brightness(0.4);
+}
+nav{
+    position: absolute;
+    top: 0;
+    left: 100;
+    display: flex;
+    padding-left: 176px;
+    padding-top: 47px;
+}
+.options ul{
+    display: flex;
+    list-style: none;
+    margin-left: 38em;
+}
+.options ul li{
+    margin-right: 45px;
+    color: white;
+    cursor: pointer;
+}
+.options ul li:hover{
+    text-decoration: underline;
+}
+.container1{
+    position: absolute;
+    bottom: 0;
+}
+.searchForm{
+    width: 90vw;
+    height: 110px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background-color: rgba(23, 23, 23, 0.5);
+}
+.searchForm p{
+    margin: 26px 150px 0 26px;
+}
+.searchLabels{
+    display: flex;
+}
+.searchInputs{
+    display: flex;
+}
+.searchInputs input{
+    margin-left: 26px;
+    height: 40px;
+}
+#age{
+    margin-left: 12px;
+    width: 10px;
+    margin-right: 10px;
+}
+#letsBegin{
+    width: 180px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: #53b9d2;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+}
+.searchInputs select{
+    margin-left: 26px;
+    height: 40px;
+}
