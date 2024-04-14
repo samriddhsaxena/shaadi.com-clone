@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: Raleway;
 }
 #bgImg{
     width: 100%;
@@ -61,7 +64,6 @@ nav{
 }
 #age{
     margin-left: 12px;
-    width: 10px;
     margin-right: 10px;
 }
 #letsBegin{
@@ -77,4 +79,83 @@ nav{
 .searchInputs select{
     margin-left: 26px;
     height: 40px;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.container2 .card{
+    height: 180px;
+    width: 70%;
+    background-color: #201530;
+    margin-left: 15%;
+    border-radius: 15px;
+    padding-left: 45px;
+    padding-top: 20px;
+    display: flex;
+}
+.belowCont{
+    display: flex;
+    color: #fff;
+}
+#cont2h{
+    margin-bottom: 15px;
+    line-height: 50px;
+    font-family: Playfair Display;
+    color: #d2b17c;
+}
+#getInvited{
+    width: 250px;
+    height: 50px;
+    margin: 1rem 0 0 2rem;
+    font-size: 20px;
+    background: #d2b17c;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.optscont2{
+    width: 120px;
+    height: 120px;
+    background-color: #00BCD5;
+    border-radius: 50%;
+    padding: 2.5rem 0 2rem 2.5rem;
+    font-size: 35px;
+    color: #fff;
+}
+.optcont2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.optcont2b{
+    display: flex;
+    margin-top: 50px;
+    color: #00BCD5;
+    text-align: center;
+    margin-left: 8rem;
+    margin-bottom: 50px;
+}
+.cont3card{
+    width: 300px;
+    height: 80vh;
+    border: 1px solid rgb(223, 222, 222);
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s;
+    border-radius: 2px;
+}
+.cont3card:hover{
+    box-shadow:  0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+.cont3card h2,p{
+    margin: 1.5rem 0 0 1rem;
+    color: #72727d;
+}
+.cirbtns{
+    text-align: center;
+}
+.cirbtns button{
+    margin-left: 22px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: none;
+    background-color: #bababc;
 }
