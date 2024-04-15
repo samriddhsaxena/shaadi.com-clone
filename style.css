@@ -11,7 +11,7 @@
     width: 100%;
     height: 98vh;
     position: relative;
-    filter: brightness(0.4);
+    filter: brightness(0.6);
 }
 nav{
     position: absolute;
@@ -55,6 +55,9 @@ nav{
 .searchLabels{
     display: flex;
 }
+.searchLabels p{
+    color: white;
+}
 .searchInputs{
     display: flex;
 }
@@ -75,6 +78,7 @@ nav{
     font-size: 16px;
     border: none;
     border-radius: 6px;
+    cursor: pointer;
 }
 .searchInputs select{
     margin-left: 26px;
@@ -111,6 +115,7 @@ nav{
     border: none;
     font-weight: 600;
     border-radius: 5px;
+    cursor: pointer;
 }
 .optscont2{
     width: 120px;
@@ -124,6 +129,8 @@ nav{
 .optcont2{
     display: flex;
     justify-content: space-evenly;
+    cursor: pointer;
+
 }
 .optcont2b{
     display: flex;
@@ -150,6 +157,7 @@ nav{
 }
 .cirbtns{
     text-align: center;
+    margin-bottom: 20px;
 }
 .cirbtns button{
     margin-left: 22px;
@@ -158,4 +166,65 @@ nav{
     border-radius: 50%;
     border: none;
     background-color: #bababc;
+}
+.getStarted{
+    background-color: #ff5a60;
+    width: 100%;
+    height: 110px;
+    padding: 22px 0;
+    display: flex;
+    justify-content: center;
+}
+#getStartedbtn{
+    margin-top: 5px;
+    margin-left: 70px;
+    height: 60px;
+    width: 220px;
+    font-size: 18px;
+    background-color: #ff5a60;
+    border: 2px solid white;
+    color: #fff;
+    font-weight: 500;
+}
+.cont4card{
+    width: 350px;
+}
+.download{
+    background-color: #eeeeee;
+    width: 100%;
+    height: 110px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.bn45 {
+    width: 105px;
+    height: 30px;
+    margin: 28px 0px 0 20px;
+}
+  .bn46 {
+    width: 105px;
+    height: 30px;
+    margin: 28px 0px 0 0px;
+}
+.trusted{
+    width: 200px;
+    height: 40px;
+    background-color: #00BCD5;
+    color: #fff;
+    font-size: 20px;
+    padding: 12px;
+    font-weight: 500;
+}
+.footercard{
+    width: 250px;
+}
+.copyright{
+    background-color: #eeeeee;
+    width: 100%;
+    height: 65px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
 }
