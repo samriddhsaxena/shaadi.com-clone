@@ -1,0 +1,1 @@
+This repository contains the homepage clone of Shaadi.com, a leading matrimonial site of India using HTML and CSS.
