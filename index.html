@@ -6,6 +6,7 @@
     <title>Shaadi.com</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="image.png" type="image/x-icon">
 </head>
 <body>
     <img src="OIP.jpeg" id="bgImg">
@@ -105,9 +106,9 @@
         </div>
     </div>
     <div class="container3">
-        <h2 style="margin: 6rem 0 6rem 15rem; color: #ff5a60; font-size: 35px; font-weight: 500;">Matrimony Service with Millions of Success Stories</h2>
+        <h2 style="margin: 6rem 5px 6rem 15rem; color: #ff5a60; font-size: 35px; font-weight: 500;">Matrimony Service with Millions of Success Stories</h2>
+        <i class="fa-solid fa-circle-chevron-left" id="backBtn" style="position: absolute; top: 108rem; left: 70px; color: red; font-size: 20px;"></i>
         <div class="cont3cards" style="display: flex;">
-            <i class="fa-solid fa-circle-chevron-left" style="margin-left: 140px; margin-top: 230px; color: #dededf; font-size: 20px;"></i>
             <div class="cont3card" style="margin-left: 15px;">
                 <img src="https://img.shaadi.com/success-story/fSH91609495-XSH67471253-big.jpg" width="300px" alt="">
                 <h2 style="font-weight: 500; color: #51505d;">Alankar and Megha</h2>
@@ -122,8 +123,24 @@
                 <img src="https://img.shaadi.com/success-story/7SH08835759-oSH78419668-big.jpg" width="300px" alt="">
                 <h2 style="font-weight: 500; color: #51505d;">Srinesh & Sanju</h2>
                 <p style="margin-top: 1rem; line-height: 1.4rem;">For a long time, we had been<br>searching to find the perfect partner,<br>it came close to no luck. Then on a<br>normal day, on my Shaadi.com...</p>
-            </div><i class="fa-solid fa-circle-chevron-right" style="margin-top: 230px; margin-left: 10px; color: #dededf; font-size: 20px;"></i>
+            </div>
+            <div class="cont3card" style="margin-left: 15px;">
+                <img src="https://img.shaadi.com/success-story/KSH73379219-USH58704386-big.jpg" width="300px" alt="">
+                <h2 style="font-weight: 500; color: #51505d;">Alankar and Megha</h2>
+                <p style="margin-top: 1rem; line-height: 1.4rem;">Hi It's all about our love story.<br>Alankar was a paid member and<br>mine was a free account. I<br>remember it was something speci...</p>
+            </div>
+            <div class="cont3card" style="margin-left: 20px;">
+                <img src="https://img.shaadi.com/success-story/zSH86660046-2SH53194099-big.jpg" width="300px" alt="">
+                <h2 style="font-weight: 500; color: #51505d;">Charmi & Udit</h2>
+                <p style="margin-top: 1rem; line-height: 1.4rem;">We started conversing through messages on the platform,<br>discussing various topics ranging<br>from our hobbies to our aspiration...</p>
+            </div>
+            <div class="cont3card" style="margin-left: 20px;">
+                <img src="https://img.shaadi.com/success-story/mSH16762075-6SH99457660-big.jpg" width="300px" alt="">
+                <h2 style="font-weight: 500; color: #51505d;">Srinesh & Sanju</h2>
+                <p style="margin-top: 1rem; line-height: 1.4rem;">For a long time, we had been<br>searching to find the perfect partner,<br>it came close to no luck. Then on a<br>normal day, on my Shaadi.com...</p>
+            </div>
         </div>
+        <i class="fa-solid fa-circle-chevron-right" id="nextBtn" style="position: absolute; top: 108rem; right: 80px; color: red; font-size: 20px;"></i>
         <div class="cirbtns">
             <button style="background-color: black;"></button>
             <button></button>
@@ -244,5 +261,20 @@
     <p style="font-size: 11px; color: #95959d; font-weight: 500; margin-left: 70px;">Passionately created by <span style="color: #00bcd5; cursor: pointer;">People Group ➤</span></p>
     </div>
     </footer>
+    <script>
+        let scrollContainer = document.querySelector(".cont3cards");
+        let backBtn = document.querySelector("#backBtn");
+        let nextBtn = document.querySelector("#nextBtn");
+    
+        nextBtn.addEventListener("click", () => {
+            scrollContainer.style.scrollBehaviour = "smooth";
+            scrollContainer.scrollLeft += 960;
+        });
+        backBtn.addEventListener("click", () => {
+            scrollContainer.style.scrollBehaviour = "smooth";
+            scrollContainer.scrollLeft -= 960;
+        });
+    
+    </script>
 </body>
 </html>

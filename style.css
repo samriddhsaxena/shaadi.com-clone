@@ -130,7 +130,19 @@ nav{
     display: flex;
     justify-content: space-evenly;
     cursor: pointer;
-
+}
+.cont3cards{
+    overflow-x: scroll;
+    width: 950px;
+    margin-left: 10%;
+}
+.cont3cards::-webkit-scrollbar{
+    display: none;
+}
+#backBtn, #nextBtn{
+    width: 50px;
+    cursor: pointer;
+    margin: 40px;
 }
 .optcont2b{
     display: flex;
